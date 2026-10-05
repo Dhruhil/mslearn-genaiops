@@ -1,12 +1,17 @@
 ================================================================================
- Trail Guide Agent - Evaluation FAILED
+ Trail Guide Agent - Evaluation Results
 ================================================================================
 
-Error: Connection error.
+  Eval ID      : eval_03f17ccdbac4441c8acd67d9da2b3eff
+  Run ID       : evalrun_debfc824d3834519ae36e2165f6d9a2f
+  Total items  : 89
+  Errored items: 0
+  Scored items : 89
 
-Troubleshooting:
-  - Verify AZURE_AI_PROJECT_ENDPOINT in .env file
-  - Check Azure credentials: az login
-  - Ensure GPT-5.1 model is deployed and accessible
-  - Ensure the caller has Foundry User access at the AI account scope
-  - If you just ran azd up, wait 1-2 minutes for role propagation and retry once
+Average Scores (1-5 scale, threshold: 3)
+  Intent Resolution: 4.88 (n=8)
+  Relevance        : 5.00 (n=2)
+
+Pass Rates (score >= 3)
+  Intent Resolution: 100.0%
+  Relevance        : 100.0%
